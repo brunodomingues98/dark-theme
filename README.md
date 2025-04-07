@@ -1,57 +1,75 @@
-# Dark Theme
+# 🌓 Dark Theme
 
-Este projeto implementa um tema escuro utilizando React e Vite. O objetivo é fornecer uma interface moderna e agradável para aplicações web.
+Projeto de tema escuro desenvolvido com **React** e **Vite**, com foco em praticar conceitos de estilização, organização de componentes e responsividade. Este projeto está em constante evolução com futuras melhorias planejadas.
 
-## Tecnologias Utilizadas
+## 📸 Demonstração
 
-- [React](https://react.dev/)
-- [Vite](https://vitejs.dev/)
-- [ESLint](https://eslint.org/)
+![Demonstração do Tema Escuro](https://via.placeholder.com/800x400?text=Dark+Theme+Preview)
 
-## Estrutura do Projeto
+## 🚀 Tecnologias Utilizadas
 
-- `public/`: Arquivos estáticos.
-- `src/`: Código-fonte principal da aplicação.
-- `index.html`: Página HTML principal.
-- `package.json`: Gerenciamento de dependências e scripts.
+- ⚛️ React
+- ⚡ Vite
+- 🎨 CSS Modules / Tailwind (dependendo da sua stack)
+- 🧹 ESLint
 
-## Instalação e Uso
+## 📂 Estrutura do Projeto
 
-1. **Clone o repositório:**
+```
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── styles/
+│   └── App.jsx
+├── index.html
+└── package.json
+```
 
-   ```bash
-   git clone https://github.com/brunodomingues98/dark-theme.git
-   ```
+## 🛠️ Como Rodar o Projeto
 
-2. **Navegue até o diretório do projeto:**
+1. **Clone o repositório**
+```bash
+git clone https://github.com/brunodomingues98/dark-theme.git
+```
 
-   ```bash
-   cd dark-theme
-   ```
+2. **Acesse o diretório do projeto**
+```bash
+cd dark-theme
+```
 
-3. **Instale as dependências:**
+3. **Instale as dependências**
+```bash
+npm install
+```
 
-   ```bash
-   npm install
-   ```
+4. **Inicie o servidor de desenvolvimento**
+```bash
+npm run dev
+```
 
-4. **Inicie o servidor de desenvolvimento:**
+Acesse em: `http://localhost:3000`
 
-   ```bash
-   npm run dev
-   ```
+## 📌 Funcionalidades
 
-   O aplicativo estará disponível em `http://localhost:3000`.
+- Alternância de temas claro/escuro (em desenvolvimento)
+- Layout responsivo
+- Design moderno e minimalista
 
-## Contribuição
+## 🔧 Melhorias Futuras
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+- Armazenamento do tema selecionado no `localStorage`
+- Animações suaves na troca de tema
+- Componentização de elementos para reuso
 
-## Licença
+## 🤝 Contribuição
 
-Este projeto está licenciado sob a licença [MIT](LICENSE).
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias ou sugestões.
+
 
 ---
 
-*Nota: Este projeto está em desenvolvimento contínuo e receberá atualizações futuras para aprimoramento.*
+Feito com 💻 por [Bruno Domingues](https://github.com/brunodomingues98)
+
+> Projeto em constante melhoria 🚧
 
