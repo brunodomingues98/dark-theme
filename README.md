@@ -1,12 +1,57 @@
-# React + Vite
+# Dark Theme
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto implementa um tema escuro utilizando React e Vite. O objetivo é fornecer uma interface moderna e agradável para aplicações web.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [ESLint](https://eslint.org/)
 
-## Expanding the ESLint configuration
+## Estrutura do Projeto
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `public/`: Arquivos estáticos.
+- `src/`: Código-fonte principal da aplicação.
+- `index.html`: Página HTML principal.
+- `package.json`: Gerenciamento de dependências e scripts.
+
+## Instalação e Uso
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/brunodomingues98/dark-theme.git
+   ```
+
+2. **Navegue até o diretório do projeto:**
+
+   ```bash
+   cd dark-theme
+   ```
+
+3. **Instale as dependências:**
+
+   ```bash
+   npm install
+   ```
+
+4. **Inicie o servidor de desenvolvimento:**
+
+   ```bash
+   npm run dev
+   ```
+
+   O aplicativo estará disponível em `http://localhost:3000`.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## Licença
+
+Este projeto está licenciado sob a licença [MIT](LICENSE).
+
+---
+
+*Nota: Este projeto está em desenvolvimento contínuo e receberá atualizações futuras para aprimoramento.*
+
