@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+:root {
+    --bg-cor: #ffffff;
+    --fonte-cor: #000000;
+    --label-icon: url("/public/lua.png");
+    --lobo-img: url("/public/lobo-dark.png");
+}
+
+.dark-mode {
+    --bg-cor: #000000;
+    --fonte-cor: #ffffff;
+    --label-icon: url("/public/sol.png");
+    --lobo-img: url("/public/lobo-white.png");
+}
+
+body {
+    background: var(--bg-cor);
+    color: var(--fonte-cor);
+    font-family: 'Cinzel', serif;
+    font-size: 38px;
+    transition: background 1.5s, color 1.5s;
+    user-select: none;
+}
+
+.container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    display: none;
+}
+
+.mudar-tema {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    width: 64px;
+    height: 64px;
+    background-image: var(--label-icon);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.tema {
+    background-image: var(--lobo-img);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 450px;
+    height: 350px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    position: relative;
+    bottom: 40px;
+}
+
+p {
+    text-align: justify;
+    align-items: center;
+    font-size: 22px;
+    width: 680px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        margin-top: 150px;
+    }
+
+    p {
+        width: 90%;
+    }
+}
