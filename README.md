@@ -2,9 +2,9 @@
 
 Projeto de tema escuro desenvolvido com **React** e **Vite**, com foco em praticar conceitos de estilização, organização de componentes e responsividade. Este projeto está em constante evolução com futuras melhorias planejadas.
 
-## 📸 Demonstração
+<!-- ## 📸 Demonstração
 
-![Demonstração do Tema Escuro](https://via.placeholder.com/800x400?text=Dark+Theme+Preview)
+![Demonstração do Tema Escuro](https://via.placeholder.com/800x400?text=Dark+Theme+Preview) -->
 
 ## 🚀 Tecnologias Utilizadas
 
